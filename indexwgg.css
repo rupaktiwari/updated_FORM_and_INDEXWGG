@@ -1,0 +1,397 @@
+
+
+
+.body {
+  
+  height: 720px;
+  margin-top: -50px;
+  margin-left: -10px;
+  margin-right: -15px;
+  margin-bottom: -10px;
+  padding: 100px;
+  background-image: linear-gradient(to bottom right, rgb(184,93,184), rgb(43,5,176));
+  width:111% !important;
+}
+.container {
+  margin-top: 15px !important;
+  display: grid;
+  grid-template-rows:px 150px 350px 75px;
+  background-color: rgb(177,177,179);
+  padding: 10px;
+  height: 575px !important;
+  width:32.4% !important;
+  border-radius: 15px;
+  margin-left: 350px;
+  
+}
+
+
+.division{
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows:px 150px 350px 75px;
+  background-color: rgb(177,177,179);
+  padding: 10px;
+  height:500px;
+  width: 400px;
+  border-radius: 15px;
+  margin-left: 400px;
+  margin-top: 50px;
+
+}
+.hintButton {
+  font-size: 12;
+}
+.skipButton {
+
+  width: 400px;
+  height: 50px;
+  appearance: none;
+  background-color:rgb(43,129,130);;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius:50%;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+
+
+.wordButtons {
+  display: grid;
+  grid-template-rows: 12px 12px 12px 12px 12px;
+  background-color: black;
+  width: 400px;
+  text-align: center;
+  
+
+}
+
+/* CSS */
+.submitButton {
+  background-color:rgb(43,129,130);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-left: 100px;
+  height: 50px;
+ 
+ ;
+
+}
+.submit {
+  width: 0px;
+}
+.submitButton:hover,
+.submitButton:focus {
+  background-color:  rgb(199,223,96);
+}
+
+input[type=text] {
+  margin-top: 15px;
+  background-color:rgb(177,177,179);
+  padding: 25px;
+  margin-left: 10px;
+ width: 65% !important;
+ border: 1px;
+ border-radius: 8px;
+font-size: 19px;
+font-weight: normal;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: .2rem;
+}
+
+.submit {
+  margin-top: -48px;
+}
+.line {
+  border: 1px solid rgb(150,77,170);
+  margin-bottom: -5px;
+}
+
+
+.hintxa{
+  margin-top:12px;
+}
+.linere{
+  border: 1px solid rgb(150,77,170);
+  margin-top:-15px;
+}
+.hinto{
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  height: 25px;
+  margin-top:23px;
+  margin-left:-8px;
+  width:330px;
+   
+}
+.skipButton {
+
+  width: 198px;
+  height: 50px;
+  appearance: none;
+  background-color:rgb(43,129,130);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: 200px;
+  margin-bottom: 2px;
+}
+.scoreButton {
+  width: 198px;
+  height: 50px;
+  appearance: none;
+  background-color:rgb(43,129,130);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-left: -399px;
+  margin-top: -2px;
+
+}
+.skipButton-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.skipButton-3:hover {
+  background-color: #2c974b;
+}
+
+.skipButton-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.skipButton-3:disabled {
+  background-color: rgb(43,129,130);
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.skipButton:active {
+  background-color:rgb(43,129,130);
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+
+.wordButtons {
+  display: grid;
+  grid-template-rows: 12px 12px 12px 12px 12px;
+  background-color: rgb(177,177,179);
+  width: 400px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-weight: bold;
+
+}
+.hintImage{
+  width:25px;
+  height:25px;
+  background-image: url('hintt.png');
+ background-size: 25px;
+ margin-left: 5px;
+ margin-top:-75px;
+}
+.linere {
+  margin-top:20px;
+}
+.hintxa {
+  margin-bottom: 50px;
+  margin-left: 40px;
+
+}
+
+/* CSS */
+.submitButton {
+  background-color:rgb(43,129,130);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100px;
+  margin-left: 300px;
+  height: 50px;
+  margin-top: -30px;
+ 
+
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  background-color:  rgb(127,193,52);
+  color: black;
+}
+
+input[type=text] {
+  margin-top: 6px;
+  background-color:rgb(177,177,179);
+  padding: 25px;
+  margin-left: 10px;
+ width: 70% !important;
+ border: 1px;
+ border-radius: 8px;
+font-size: 19px;
+font-weight: normal;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: .2rem;
+
+}
+
+.submit {
+  margin-top: -48px;
+}
+.line {
+  border: 1px solid rgb(150,77,170);
+}
+.bottomButton{
+  height: 49px;
+  margin-bottom:7px;
+}
+.topline{
+  border: 1px solid rgb(150,77,170);
+  margin-top: 9px;
+}
+.scoreline{
+  height: 20px;
+  width: 75px;
+  background-color: burlywood;
+}
+
+.verytop {
+  display: grid;
+  grid-template-columns: 20px 20px;
+ 
+}
+.score {
+  margin-left:350px;
+  padding-left: 5px;
+  width: 30px;
+  height:30px;
+  border-radius: 50%;
+  border: 2px solid rgb(43,129,130) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(177,177,179);
+}
+.timer {
+  /*width: 50px !important;
+  height:25px !important;
+  border-radius: 50% !important;
+  border: 2px solid rgb(43,129,130) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: -200px !important;
+  margin-bottom: 600px !important;*/
+  border-radius: 50%;
+  color: black;
+  margin-bottom:500px;
+  margin-left:150px;
+  background-color:rgb(177,177,179) ;
+}
+.form {
+  height:80px;
+  margin-top:7px;
+}
+.h2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing: .2rem;
+}
